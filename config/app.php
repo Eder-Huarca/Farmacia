@@ -288,7 +288,11 @@ return [
         'default' => [
             'className' => Connection::class,
             'driver' => Mysql::class,
-            'persistent' => false,
+			'persistent' => false,
+        'host' => '5555',
+        'username' => 'root',
+        'database' => 'farmacia',
+        'encoding' => 'utf8mb4',
             'timezone' => 'UTC',
 
             /*
